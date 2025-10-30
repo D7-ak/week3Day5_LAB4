@@ -33,10 +33,6 @@ public class Circle extends Shape{
     public String toString() {
          String area = String.format("%.2f",calculateArea());
          String Circumference = String.format("%.2f",calculateCircumference());
-        return "Circle{" +
-                "radius=" + radius +
-                ", area='" + area + '\'' +
-                ", Circumference='" + Circumference + '\'' +
-                '}';
+        return "Circle{"+"radius=" + radius+", area='" + area + '\''+", Circumference='" + Circumference + '\''+'}';
     }
 }
